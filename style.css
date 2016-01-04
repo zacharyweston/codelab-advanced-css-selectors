@@ -1,0 +1,19 @@
+li:empty {
+  display: none;
+}
+
+ul li:nth-child(odd) {
+ background-color: gray;
+}
+
+ul li:hover {
+  font-weight: bold;
+}
+
+ul > li:first-child {
+  font-variant: small-caps;
+}
+
+ul > li:last-child {
+  font-variant: small-caps;
+}
